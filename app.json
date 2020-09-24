@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "funny-churros",
+    "slug": "snack-0cc585aa-a628-4e93-9b79-3c31e58a5482",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.expo.splash.bug",
+      "versionCode": 1,
+      "splash": {
+        "resizeMode": "native",
+        "backgroundColor": "#ff0000",
+        "mdpi": "assets/android-splash/mdpi.png",
+        "hdpi": "assets/android-splash/hdpi.png",
+        "xhdpi": "assets/android-splash/xhdpi.png",
+        "xxhdpi": "assets/android-splash/xxhdpi.png",
+        "xxxhdpi": "assets/android-splash/xxxhdpi.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
